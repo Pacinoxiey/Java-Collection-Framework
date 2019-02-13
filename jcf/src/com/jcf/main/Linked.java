@@ -1,7 +1,11 @@
 package com.jcf.main;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
+
+import javax.print.DocFlavor.STRING;
 
 /**
  * @author xiey
@@ -23,6 +27,9 @@ public class Linked {
 		list.add("aaa");
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Long.MAX_VALUE);
+		
+		List<String> synList = Collections.synchronizedList(new LinkedList<>());//实现同步
+		List<String> synArray = Collections.synchronizedList(aList);
 	}
 	/**
 	 * add(E e)
