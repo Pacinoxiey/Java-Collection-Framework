@@ -1,6 +1,7 @@
 package com.jcf.main;
 
 import java.util.ArrayDeque;
+import java.util.PriorityQueue;
 
 /**
 * @author xiey
@@ -13,6 +14,7 @@ public class Deque {
 //		arrayDeque.add(e)
 //		arrayDeque.addLast(e);
 //		arrayDeque.addFirst(e);
+//		PriorityQueue
 	}
 	
 	//addFirst(E e)
